@@ -1,0 +1,99 @@
+.cols{
+	padding: 0 15px;
+}
+
+
+/* SET COLUMN WIDTH */
+
+.cols-wrapper .desktop-1{ width: 8.33333%; }
+
+.cols-wrapper .desktop-2{ width: 16.66667%; }
+
+.cols-wrapper .desktop-3{ width: 25%; }
+
+.cols-wrapper .desktop-4{ width: 33.33%; }
+
+.cols-wrapper .desktop-5{ width: 41.66667%; }
+
+.cols-wrapper .desktop-6{ width: 50%;}
+
+.cols-wrapper .desktop-7{ width: 58.33333%; }
+
+.cols-wrapper .desktop-8{ width: 66.66667%; }
+
+.cols-wrapper .desktop-9{ width: 75%; }
+
+.cols-wrapper .desktop-10{ width: 83.33333%; }
+
+.cols-wrapper .desktop-11{ width: 91.66667%; }
+
+.cols-wrapper .desktop-12{ width: 100%; }
+
+.cols-wrapper .desktop-none{ display: none;}
+
+.cols-wrapper .cols:not(.desktop-none){ display: block;}
+
+@media only screen and ( max-width: 1200px ) {
+
+    .cols-wrapper .tablet-1{ width: 8.33333%; }
+
+    .cols-wrapper .tablet-2{ width: 16.66667%; }
+
+    .cols-wrapper .tablet-3{ width: 25%; }
+
+    .cols-wrapper .tablet-4{ width: 33.33%; }
+
+    .cols-wrapper .tablet-5{ width: 41.66667%; }
+
+    .cols-wrapper .tablet-6{ width: 50%;}
+
+    .cols-wrapper .tablet-7{ width: 58.33333%; }
+
+    .cols-wrapper .tablet-8{ width: 66.66667%; }
+
+    .cols-wrapper .tablet-9{ width: 75%; }
+
+    .cols-wrapper .tablet-10{ width: 83.33333%; }
+
+    .cols-wrapper .tablet-11{ width: 91.66667%; }
+
+    .cols-wrapper .tablet-12{ width: 100%; }
+
+    .cols-wrapper .tablet-none{ display: none;}
+	
+	.cols-wrapper .cols:not(.tablet-none){ display: block;}
+
+}
+
+@media only screen and ( max-width: 680px ) {
+
+    .cols-wrapper .mobile-1{ width: 8.33333%; }
+
+    .cols-wrapper .mobile-2{ width: 16.66667%; }
+
+    .cols-wrapper .mobile-3{ width: 25%; }
+
+    .cols-wrapper .mobile-4{ width: 33.33%; }
+
+    .cols-wrapper .mobile-5{ width: 41.66667%; }
+
+    .cols-wrapper .mobile-6{ width: 50%;}
+
+    .cols-wrapper .mobile-7{ width: 58.33333%; }
+
+    .cols-wrapper .mobile-8{ width: 66.66667%; }
+
+    .cols-wrapper .mobile-9{ width: 75%; }
+
+    .cols-wrapper .mobile-10{ width: 83.33333%; }
+
+    .cols-wrapper .mobile-11{ width: 91.66667%; }
+
+    .cols-wrapper .mobile-12{ width: 100%; float: none !important;}
+
+    .cols-wrapper .mobile-none{ display: none; }
+	
+	.cols-wrapper .cols:not(.mobile-none){ display: block;}
+
+}
+

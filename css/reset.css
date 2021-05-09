@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: Courier, Sans-serif;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background-color: #fff;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+h1, h2, h3{
+	color: #555555;
+}
+
+h4{
+	text-align: center;
+}
+
+p{
+	color: #555;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+p a{
+	color: inherit;
+}
+
+p a:hover{
+	text-decoration: none;
+}
+
+
+ul{
+	color: #555;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+div, section{
+	position: relative;
+}
+
+section.rows.flex{
+	min-height: 100vh;
+	display:flex;
+}
+
+section.rows{
+	
+}
+
+.vh-100{
+	min-height: calc(100vh - 66px);
+}
+
+
+a.scrollTo{
+	width: 54px;
+	margin: 75px auto 0;
+	display: block;
+	padding-top: 1px;
+	opacity: 0;
+	animation-name: scrollto;
+	animation-duration: 2.5s;
+	animation-delay: 2.5s;
+	animation-fill-mode: forwards;
+	position: relative;
+}
+
+@keyframes scrollto {
+	0%{ opacity: 0;}
+	100%{ opacity: 1;}
+}
+
+.scrollTo img{
+	width: 54px;
+}
+
+.center{
+	text-align: center;
+}
+
+
+.cols img{
+	width: 100%;
+	display: block;
+}
+
+.rows .stretch{
+	align-items: stretch;
+	-webkit-align-items: stretch;
+	-moz-align-items: stretch;
+}
+
+
+.bg-overlay:before{
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	content: "";
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+
+.bg-overlay > *{
+	z-index: 2;
+}
