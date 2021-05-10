@@ -268,10 +268,19 @@ p{
 	text-align: center;
 }
 
+#skills h3{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 #skills img{
 	padding: 10%;
 	margin: 0 auto;
 	max-width: 200px;
+}
+
+#skills ul{
+	padding-left: 30px;
 }
 
 #hidden_section{
@@ -347,7 +356,7 @@ p{
 }
 
 .projects .pod figure img:hover{
-	transform: scale(1.2);
+	transform: scale(1.05);
 }
 
 .projects h2{
