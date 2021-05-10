@@ -14,7 +14,7 @@ html, body{
 }
 
 body{
-	background-color: #fff;
+	background-color: #151515;
 }
 
 nav a{
@@ -22,15 +22,21 @@ nav a{
 }
 
 h1, h2, h3{
-	color: #555555;
+	color: #ddd;
 }
 
 h4{
 	text-align: center;
+	color: #ddd;
+}
+
+hr{
+	width: 100%;
+	color: #aaa;
 }
 
 p{
-	color: #555;
+	color: #ddd;
 	font-size: 16px;
 	font-weight: 300;
 }
@@ -45,7 +51,7 @@ p a:hover{
 
 
 ul{
-	color: #555;
+	color: #ddd;
 	font-size: 16px;
 	font-weight: 300;
 }
@@ -60,7 +66,7 @@ section.rows.flex{
 }
 
 section.rows{
-	
+
 }
 
 .vh-100{

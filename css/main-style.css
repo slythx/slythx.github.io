@@ -2,7 +2,7 @@
 @import url("grid.css");
 
 
-nav.top-nav{ 
+nav.top-nav{
 	background-color: transparent;
 	height: 75px;
 	position: fixed;
@@ -29,8 +29,6 @@ nav #nav-inner{
 	height: 100%;
 }
 
-
-	
 nav.top-nav #logo{
 	width: 50px;
 	margin-left: 15px;
@@ -42,7 +40,7 @@ nav.top-nav #logo a{
 
 nav.top-nav #logo img{
 	width: 100%;
-	display: block; 
+	display: block;
 }
 
 nav ul{
@@ -90,7 +88,7 @@ nav #nav-inner ul li a:hover{
 
 
 header{
-	background: url('../images/header_bg.png') no-repeat;
+	background: url('../images/darkworld-map.jpg') no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 100vh;
@@ -108,7 +106,7 @@ header{
 }
 
 #header-inner.bg-overlay:before{
-	background: rgba(0, 0, 0, .2);
+	background: rgba(0, 0, 0, .65);
 }
 
 
@@ -121,7 +119,7 @@ header h1{
 	animation: heading;
 	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	color: #eeeeee;
+	color: #ddd;
 	text-shadow: 1px 1px 5px #111111;
 }
 
@@ -139,12 +137,12 @@ header p{
 
 header p.text{
 	animation: head_content;
-	animation-duration: 1.5s;
+	animation-duration: 1s;
 	animation-fill-mode: forwards;
-	animation-delay: 1s;
-	left: -1800px;
+	animation-delay: .8s;
+	left: -1900px;
 	font-weight: 300;
-	color: #eee;
+	color: #ddd;
 	text-shadow: 1px 1px 3px #000000;
 }
 
@@ -163,10 +161,10 @@ section.rows{
 	clear: both;
 	margin: 0 auto;
 }
- 
+
 .rows.full-bleed{
 	max-width: 100%;
-} 
+}
 
 .cols-wrapper{
 	max-width: 1200px;
@@ -193,7 +191,7 @@ section.rows{
 
 .cols{
 	width: 100%;
-	display: inline-block; 
+	display: inline-block;
 	vertical-align: top;
 	position: relative;
 }
@@ -235,10 +233,10 @@ p{
 
 /* ABOUT */
 
-#about{ 
+#about{
 	border-bottom: 2px solid #aaa;
 }
- 
+
 .prof-pic{
 	left: -1000px;
 	animation-name: prof-pic;
@@ -262,20 +260,20 @@ p{
 
 /* SKILLS */
 
-#skills{  
+#skills{
 	border-bottom: 2px solid #aaa;
 }
- 
+
 #skills h2{
 	text-align: center;
 }
 
 #skills img{
-	padding: 10%; 
+	padding: 10%;
 	margin: 0 auto;
 	max-width: 200px;
 }
- 
+
 #hidden_section{
 	transition: height 1.5s;
 	-webkit-transition: height 1.5s;
@@ -294,15 +292,19 @@ p{
 .button{
 	display: block;
 	text-decoration: none;
-	margin-top: 30px; 
-	padding: 12px 50px;
-	background: #172b39;
+	margin-top: 30px;
+	padding: 12px 50px 8px;
+	background: #0e1b24;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border:none;
+	border: 1px solid #aaa;
 	color: #fff;
 	font-size: 16px;
+}
+
+.button.center{
+	margin: 0 auto;
 }
 
 .button:hover{
@@ -312,57 +314,63 @@ p{
 
 /* PROJECTS */
 
-#projects{ 
+.projects{
 }
 
-#projects .pod{
+.projects.htb{
+	border-bottom: 2px solid #aaa;
+}
+
+.projects .pod{
 	padding: 15px;
 	margin-bottom: 20px;
 }
 
-#projects .pod figure{
-	overflow: hidden; 
+.projects .pod figure{
+	overflow: hidden;
 	width: 370px;
 	border: 1px solid #ccc;
 	max-width: 100%;
 	margin: 0 auto;
 }
 
-#projects .pod a{
+.projects .pod a{
 	display: block;
 	width: 100%;
 	overflow: hidden;
 }
 
-#projects .pod figure img{
+.projects .pod figure img{
 	transition: transform .2s;
 	width: 100%;
 	height: 240px
 }
 
-#projects .pod figure img:hover{
+.projects .pod figure img:hover{
 	transform: scale(1.2);
 }
 
-#projects h2{
+.projects h2{
 	text-align: center;
 }
 
-#projects p{
+#main-wrapper .projects p{
 	text-align: center;
+	font-weight: bold;
+	margin:  10px auto 5px ;
 }
 
-#projects h4{
+.projects h4{
 	font-size: 20px;
 	margin: 10px 5px 5px;
 }
 
-#projects ul{
+.projects ul{
 	text-align: center;
 	list-style-type:  none;
 }
 
-#projects ul li{
+.projects ul li{
 	color: ;
 }
 
@@ -374,16 +382,16 @@ p{
 }
 
 #contact.bg-overlay:before {
-	background: rgb(17, 30, 39, .6);
+	background: rgb(8, 15, 19, .8);
 }
 
 #contact h2{
 	color: #ddd;
-} 
+}
 
 #contact h3{
 	color: #ddd;
-} 
+}
 
 #contact p{
 	color: #ddd;
@@ -412,11 +420,11 @@ input[type="text"], input[type="tel"], input[type="email"],textarea{
 	font-family: "Courier", Lato, sans-serif;
 }
 
-input[type="text"]{  
+input[type="text"]{
 	width: 100%;
 }
 
-input[type="tel"]{  
+input[type="tel"]{
 	width: 100%;
 }
 
@@ -433,9 +441,9 @@ textarea{
 	max-width: 100%
 }
 
-input[type="submit"]{ 
+input[type="submit"]{
 	clear: both;
-	text-transform: uppercase; 
+	text-transform: uppercase;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -446,7 +454,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-	cursor: pointer; 
+	cursor: pointer;
 }
 
 
@@ -455,7 +463,7 @@ input[type="submit"]:hover{
 footer{
 	padding: 30px 0;
 	border-top: 2px solid #26262a;
-	background: #111e27;
+	background: #0e1b24;
 }
 
 #footer-inner{
@@ -489,14 +497,14 @@ footer nav ul a:hover{
 
 @media only screen and (max-width: 1263px) {
 
-	#projects .pod figure img{
+	.projects .pod figure img{
 		height: 200px;
 	}
-	
+
 	nav.top-nav {
 		background-color: #172b39;
 	}
-	  
+
 	nav.top-nav #logo{
 		margin-left: 25px;
 	}
@@ -504,11 +512,11 @@ footer nav ul a:hover{
 	#hamburger-nav{
 		position: absolute;
 	    right: 25px;
-	    width: 35px; 
-	    top: 17px; 
+	    width: 35px;
+	    top: 17px;
 	    z-index: 2;
 	}
-	
+
 	#hamburger-nav:hover{
 		cursor: pointer;
 	}
@@ -522,23 +530,23 @@ footer nav ul a:hover{
 	    margin: 6px 0;
 	    height: 4px;
 	}
-	
-	
+
+
 	nav.top-nav #nav-inner{
 		max-width: 100%;
 	}
-	 
+
 	nav.top-nav #nav-inner ul{
-		background: #172b39; 
+		background: #172b39;
 		position: absolute;
-		padding: 10px 0;  
+		padding: 10px 0;
 		overflow: hidden;
 		height: auto;
 		display: none;
 		max-width: 100%;
 		top: 100%;
 	}
- 
+
 	nav.top-nav ul{
 		text-align: left;
 	}
@@ -556,66 +564,66 @@ footer nav ul a:hover{
 }
 
 @media only screen and (max-width: 812px) {
-	
+
 	html{
 		height: auto;
 	}
 	header{
 		height: calc(100vh - 55px);
 	}
-	
+
 	nav.top-nav, #sticky-nav{
 		height: 55px;
 	}
-	
+
 	nav.top-nav #logo{
 		width: 40px;
 	}
-	
-	#hamburger-nav{ 
+
+	#hamburger-nav{
 		width: 28px;
 		right: 15px;
 		top: 13px
 	}
-	
+
 	#hamburger-nav .line{
 		margin: 4px 0;
 	}
-	
+
 	#header-inner{
-		 
+
 	}
-	
+
 	header h1{
 		font-size: 48px;
 		margin-bottom: 35px;
 	}
-	
+
 	header p.text{
 		font-size: 18px;
 	}
-	
+
 	a.scrollTo{
 		margin-top: 55px;
 	}
-	
+
 	h2, p{
 		text-align: center;
 	}
-	
+
 	#header-inner{
 		display: block;
 	}
-	
+
 	.anchor{
 		height: 55px;
 		margin-top: -55px;
 	}
-	
+
 	section.rows{
 		padding: 20px 0;
 	}
-	
+
 	.rows{
 		max-width: 100%;
 		width: 100%;
@@ -626,21 +634,21 @@ footer nav ul a:hover{
 		max-width: 100%;
 		width: 100%;
 	}
-	
+
 	.prof-pic img{
 		max-width: 250px;
 		margin-bottom: 30px;
 	}
-	
+
 	.button{
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
+
 	iframe#map{
 		margin-top: 50px;
 	}
-	
+
 	footer nav ul a{
 		font-size: 18px;
 	}
