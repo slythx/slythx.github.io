@@ -671,6 +671,10 @@ footer nav ul a:hover{
 		padding: 50px 0;
 	}
 
+	#skills ul{
+		padding-left: 20px;
+	}
+
 	.rows{
 		max-width: 100%;
 		width: 100%;
