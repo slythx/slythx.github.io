@@ -155,6 +155,7 @@ section.rows{
 	padding: 66px 0;
 }
 
+
 .rows{
 	max-width: 1200px;
 	width: 100%;
@@ -217,6 +218,14 @@ p{
 #main-wrapper{
 	padding-left: 15px;
 	padding-right: 15px;
+	background-image: url('../images/metallic.jpg');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#main-wrapper::before{
+	background: rgba(0, 0, 0, .3);
 }
 
 
@@ -226,9 +235,9 @@ p{
 }
 
 .anchor{
-	height: 66px;
-	margin-top:-66px;
+	top:-66px;
 	z-index: -1;
+	visibility: hidden;
 }
 
 /* ABOUT */
@@ -587,6 +596,10 @@ footer nav ul a:hover{
 
 	nav.top-nav, #sticky-nav{
 		height: 55px;
+	}
+
+	nav.top-nav #nav-inner{
+		background: rgb(14, 27, 36);
 	}
 
 	nav.top-nav #logo{
