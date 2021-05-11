@@ -14,11 +14,7 @@ html, body{
 	position: relative;
 }
 
-body{
-	background-image: url('../images/metallic.jpg');
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
+body{ 
 	background-color: #151515;
 }
 
@@ -29,7 +25,7 @@ body.bg-overlay:before{
 nav a{
 	text-decoration: none;
 }
- 
+
 h1, h2, h3{
 	color: #ddd;
 }
