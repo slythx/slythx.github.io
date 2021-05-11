@@ -14,7 +14,7 @@ html, body{
 	position: relative;
 }
 
-body{ 
+body{
 	background-color: #151515;
 }
 
@@ -42,7 +42,7 @@ hr{
 
 p{
 	color: #ddd;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 }
 
@@ -57,7 +57,7 @@ p a:hover{
 
 ul{
 	color: #ddd;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 }
 

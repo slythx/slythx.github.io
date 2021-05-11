@@ -596,15 +596,16 @@ footer nav ul a:hover{
 	}
 
 	header h1{
-		font-size: 43px;
+		font-size: 40px;
+		margin-bottom: 20px;
 	}
 
 	h2{
-		font-size: 33px;
+		font-size: 28px;
 	}
 
 	#header-inner{
-		padding: 50px 0;
+		padding: 30px 0;
 	}
 
 	nav.top-nav, #sticky-nav{
@@ -633,13 +634,13 @@ footer nav ul a:hover{
 
 	}
 
-	header h1{
-		font-size: 48px;
-		margin-bottom: 35px;
-	}
 
 	header p.text{
-		font-size: 18px;
+		font-size: 16px;
+	}
+
+	p, ul{
+		font-size: 16px;
 	}
 
 	a.scrollTo{
@@ -663,7 +664,7 @@ footer nav ul a:hover{
 	}
 
 	#main-wrapper::before {
-		background: rgba(0, 0, 0, .3);
+		background: rgba(0, 0, 0, .1);
 	}
 
 	section.rows{
